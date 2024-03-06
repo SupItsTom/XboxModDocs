@@ -44,3 +44,6 @@ Keep in mind the address will vary across different zones so make sure you're be
 
 You should now have something like this! Feel free to explore different zone addresses as you've learned the basics!
 ![PeekNPoke Finding Addresses](https://github.com/SupItsTom/XboxModDocs/raw/main/imgs/SWATFINISHED.png)
+
+
+> Section By: [krqus](https://github.com/krqus)
