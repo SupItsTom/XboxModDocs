@@ -1,5 +1,6 @@
 public Dictionary<int, int> BO2_LEVELS = new Dictionary<int, int>()
 {
+    // levelNumber, xpForLevel
     {1, 0},
     {2, 800},
     {3, 1900},
