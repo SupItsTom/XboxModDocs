@@ -2,9 +2,9 @@
 This tutorial will go over setting up and creating a tool for Xbox 360.
 
 ### Resources used in this guide
-- [Xbox 360 SDK](https://download.here), for connecting to the Console using Neighbourhood.
+- [Xbox 360 SDK](http://www.mediafire.com/file/l9786i9endh5w5e/XBOX360+SDK+21256.3.exe), for connecting to the Console using Neighbourhood.
 - [JRPC](https://download.here), a wrapper to communicate with the Xbox 360 remotely.
-- [Microsoft Visual Studio](https://download.here), for developing your tool.
+- [Microsoft Visual Studio](https://visualstudio.microsoft.com), for developing your tool.
 
 ## Step 1: Creating a tool
 //todo
