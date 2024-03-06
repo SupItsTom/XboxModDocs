@@ -4,25 +4,18 @@
 - [Cbuf_AddText Address](https://github.com/SupItsTom/XboxModDocs/blob/main/docs/cod/bo2/Addresses.md#main-addresses)
 
 
-## Functions Needed:
-***Cbuf_AddText Function***:
+## Code Examples:
+***Cbuf_AddText***:
 ```csharp
-public void AddText(IXboxConsole Console, string Command) {
-  JRPC.CallVoid(Console, CBuf_AddText, new object[] {
-    0,
-    Command
-  });
-}
+Console.CallVoid(0x824015E0, 0, cmd);
 ```
-***SetStat Function***:
+***SetStat example***:
 ```csharp
-public void SetStat(IXboxConsole Console, Progression statType, int value) {
-  AddText(Console, $ "statsetbyname {statType} {value}");
-}
+Cbuf_AddText("statsetbyname {Stats.KILLS} 1337");
 ```
 ***Progression Enum***:
 ```csharp
-public enum Progression {
+public enum Stats {
   RANKXP,
   SCORE,
   KILLS,
@@ -45,7 +38,3 @@ public enum Progression {
   PLEVEL
 }
 ```
-
-## How to Use:
-
-> SetStat(jtag, Progression.SCORE, 1e24);
