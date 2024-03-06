@@ -16,6 +16,6 @@ This tutorial will go over setting up and creating a tool for Xbox 360.
 //todo
 
 ## Next Steps
-Congrats on building your first mod tool
+Congrats on building your first mod tool! ✨
 
-Hopefully you learned a bit about development of a tool.  From here, you can continue building out your tool or explore what else is possible.
+Hopefully you learned a bit about development of a tool. From here, you can continue building out your tool or explore what else is possible.
